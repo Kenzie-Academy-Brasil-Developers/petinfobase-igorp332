@@ -1,0 +1,132 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+header {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+nav {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 172px
+}
+.div-nav {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.feed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 64px;
+    background-color: var(--gray800);
+}
+.feed div {
+    width: 800px
+}
+.feed-list {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 100vh;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 44px 24px 44px 24px;
+    width: 368px;
+    background-color: var(--gray900);
+    border: 1px solid var(--gray600);
+    border-radius: 4px;
+}
+img {
+    object-fit: cover;
+    border-radius: 12px;
+}
+#img-login {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--brand100);
+    border-radius: 50%;
+}
+.box-1 {
+    display: flex;
+    gap: 18px;
+}
+.box-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.box-3 {
+    display: flex;
+    gap: 18px;
+}
+.box-2>.box-3>img {
+    width: 87px;
+    height: 92px;
+}
+.box-2>img {
+    width: 192px;
+    height: 92px;
+}
+.box-4>img {
+    width: 87px;
+    height: 209px;
+}
+.box-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#register-form {
+    margin-top: 27px;
+}
+.tip {
+    padding: 21px 32px;
+    position: absolute;
+    top: 80vh;
+    left: 70vw;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    background: var(--gray900);
+    box-shadow: 0px 4px 30px -12px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray200)
+}
+.success {
+    display: flex;
+    align-items: center;
+    color: var(--success100);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    gap: 12px;
+}
+.anchor {
+    margin-left: 8px;
+    color: var(--brand200);
+    cursor: pointer
+}
+#check {
+    z-index: 2;
+}
+#green {
+    object-fit: none;
+    z-index: 1;
+}

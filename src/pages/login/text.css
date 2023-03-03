@@ -1,0 +1,72 @@
+h1 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    color: var(--gray100);
+    margin-bottom: 24px;
+}
+.slogan {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    color: var(--gray100);
+    margin-bottom: 24px;
+}
+.slogan b {
+    color: var(--brand100);
+}
+.p-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--gray300);
+    margin-bottom: 24px;
+}
+.form h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--gray100);
+}
+#login-title {
+    margin-bottom: 26px;
+}
+.feed {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+}
+.paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray300);
+}
+.bolder {
+    font-weight: 500;
+    color: var(--gray100);
+    margin-bottom: 20px;
+}
+.alert {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--alert100)
+}
+#go-back-to-login {
+    font-size: 14px;
+}
+#petinfo {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--gray100);
+    margin-bottom: 0;
+}
+.post-card h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray200)
+}
