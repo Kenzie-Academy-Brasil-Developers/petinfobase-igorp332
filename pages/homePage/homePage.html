@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="./styleHomePage/homePage.css">
+    <link rel="stylesheet" href="./styleHomePage/header.css">
+    <link rel="stylesheet" href="./styleHomePage/buttonsHomePageModal.css">
+    <link rel="stylesheet" href="./styleHomePage/post.css">
+    <link rel="stylesheet" href="./styleHomePage/modalOpenPost.css">
+    <link rel="stylesheet" href="./styleHomePage/modalDelete.css">
+    <link rel="stylesheet" href="./styleHomePage/modalCreatePost.css">
+    <link rel="stylesheet" href="../register/styleRegister/toastRegister.css">
+    
+    
+    
+    <title>Document</title>
+</head>
+<body>
+   <main class="container">
+        <header>
+            <h1>Petinfo</h1>
+
+            <div class="div-header">
+                <button class="create-post" id="modal-create-post">Criar publicação</button>
+                <div class="logout">
+                    <button id="button-exit-count" class="button-logout"><img src="../../assets/img/Group 13.svg" alt=""></button>
+                </div>
+            </div>
+        </header>
+
+        <section id="feed-posts">
+            <h2 class="feed">Feed</h2>
+
+            <ul id="user-posts">
+            </ul>
+        </section>
+    </main>
+    <script defer type="module" src="../../scripts/homePage.js"></script>
+    
+</body>
+</html>
